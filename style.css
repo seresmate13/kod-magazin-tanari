@@ -4,24 +4,6 @@
   box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-h1{
-  font-size: 26px;
-}
-h2{
-  font-size: 40px;
-}
-h3{
-  font-size: 30px;
-}
-h4{
-  font-size: 20px;
-}
-
-p{
-  font-size: 22px;
-  line-height: 1.5;
-=======
 h1 {
   font-size: 26px;
 }
@@ -53,7 +35,6 @@ footer p {
 
 li {
   font-size: 20px;
->>>>>>> upstream/main
 }
 
 h1,
@@ -120,11 +101,7 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
-<<<<<<< HEAD
-  }
-=======
 }
->>>>>>> upstream/main
 
 .main-header {
   background-color: #f7f7f7;
@@ -136,11 +113,8 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-<<<<<<< HEAD
-  padding: 50px 0;
-=======
->>>>>>> upstream/main
   width: 500px;
+  flex: 0 0 300;
 }
 
 li {
@@ -154,7 +128,8 @@ li:last-child {
 
 
 article {
-  margin-bottom: 60px;
+  margin-bottom: 0px;
+  flex:1;
 }
 
 h2 {
@@ -186,11 +161,7 @@ p {
   margin: 0 auto;
 }
 
-<<<<<<< HEAD
-nav{
-=======
 nav {
->>>>>>> upstream/main
   font-size: 18px;
 }
 
@@ -219,42 +190,20 @@ nav a:visited:last-child {
   font-size: 18px;
 }
 
-<<<<<<< HEAD
-.author,
-.related-author{
-  font-size: 18px;
-}
-
-.author-img{
-=======
 .author-img {
->>>>>>> upstream/main
   width: 50px;
   height: 50px;
 }
 
-<<<<<<< HEAD
-.related{
-  list-style: none;
-}
-
-.related img{
-=======
 .related {
   list-style: none;
 }
 
 .related img {
->>>>>>> upstream/main
   width: 75px;
   height: 75px;
 }
 
-<<<<<<< HEAD
-h1::first-letter{
-  font-style: normal;
-}
-=======
 h1 {
   font-style: italic;
 }
@@ -305,8 +254,11 @@ h4 {
   font-style: normal;
   margin-bottom: 5px;
 }
->>>>>>> upstream/main
 
 .row{
-  
+  display: flex;
+  gap: 75px;
+  margin-bottom: 60px;
+  align-items: flex-start;
 }
+
