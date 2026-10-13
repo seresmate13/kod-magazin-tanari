@@ -20,10 +20,12 @@
       <article>
         <header class="post-header">
           <h2>A web alapnyelve: HTML</h2>
+          <div class="author-box">
           <img src="img/laura-jones.jpg" alt="Laura Jones portréja" class="author-img" />
           <p class="author">
             Közzétette: <strong>Laura Jones</strong>, 2027. június 21., hétfő
           </p>
+          </div>
           <img
             src="img/post-img.jpg"
             alt="HTML-kód egy képernyőn"
@@ -87,21 +89,27 @@
       <aside>
         <h4>Kapcsolódó bejegyzések</h4>
         <ul class="related">
-          <li>
-            <img src="img/related-1.jpg" alt="Programozó személy" /><a href="#"
+          <li class="related-post">
+            <img src="img/related-1.jpg" alt="Programozó személy" />
+            <div><a href="#" class="related-link"
               >Hogyan tanuljunk webfejlesztést</a
             >
             <p class="related-author">Szerző: Jonas Schmedtmann</p>
+            </div>
           </li>
-          <li>
+          <li class="related-post">
             <img src="img/related-2.jpg" alt="Villám" />
-            <a href="#">A CSS ismeretlen ereje</a>
+            <div>
+            <a href="#" class="related-link">A CSS ismeretlen ereje</a>
             <p class="related-author">Szerző: Jim Dillon</p>
+            </div>
           </li>
-          <li>
+          <li class="related-post">
             <img src="img/related-3.jpg" alt="JavaScript kód egy képernyőn" />
-            <a href="#">Miér nagyszerű a JavaScript?</a>
+            <div>
+            <a href="#" class="related-link">Miér nagyszerű a JavaScript?</a>
             <p class="related-author">Szerző: Matilda</p>
+            </div>
           </li>
         </ul>
       </aside>
