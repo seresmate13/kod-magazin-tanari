@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 
+<<<<<<< HEAD
 h1{
   font-size: 26px;
 }
@@ -20,6 +21,39 @@ h4{
 p{
   font-size: 22px;
   line-height: 1.5;
+=======
+h1 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 20px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1.5;
+}
+
+.author, 
+.related-author {
+  font-size: 18px;
+}
+
+footer p {
+  font-size: 16px;
+}
+
+
+
+li {
+  font-size: 20px;
+>>>>>>> upstream/main
 }
 
 h1,
@@ -86,7 +120,11 @@ body {
   color: #444;
   font-family: sans-serif;
   border-top: 10px solid #1098ad;
+<<<<<<< HEAD
   }
+=======
+}
+>>>>>>> upstream/main
 
 .main-header {
   background-color: #f7f7f7;
@@ -98,7 +136,10 @@ aside {
   background-color: #f7f7f7;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
+<<<<<<< HEAD
   padding: 50px 0;
+=======
+>>>>>>> upstream/main
   width: 500px;
 }
 
@@ -141,11 +182,15 @@ p {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   margin: 0 auto;
 }
 
+<<<<<<< HEAD
 nav{
+=======
+nav {
+>>>>>>> upstream/main
   font-size: 18px;
 }
 
@@ -174,25 +219,90 @@ nav a:visited:last-child {
   font-size: 18px;
 }
 
+<<<<<<< HEAD
 .author,
 .related-author{
   font-size: 18px;
 }
 
 .author-img{
+=======
+.author-img {
+>>>>>>> upstream/main
   width: 50px;
   height: 50px;
 }
 
+<<<<<<< HEAD
 .related{
   list-style: none;
 }
 
 .related img{
+=======
+.related {
+  list-style: none;
+}
+
+.related img {
+>>>>>>> upstream/main
   width: 75px;
   height: 75px;
 }
 
+<<<<<<< HEAD
 h1::first-letter{
   font-style: normal;
 }
+=======
+h1 {
+  font-style: italic;
+}
+
+h1::first-letter {
+  font-style: normal;
+}
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.author {
+  margin-bottom: 0;
+}
+
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.related-post {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.related-author {
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+}
+
+.related-link:link {
+  font-size: 17px;
+  font-weight: bold;
+  font-style: normal;
+  margin-bottom: 5px;
+}
+>>>>>>> upstream/main
